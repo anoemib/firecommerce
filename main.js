@@ -18,5 +18,26 @@ window.scroll({
   behavior: 'smooth'
 });
 
-
 });
+
+function showcase2(){
+  var showCase = document.getElementsByClassName("showcase")
+  var showCase2 = document.getElementsByClassName("showcase2");
+   var dots = document.getElementsByClassName("dot");
+
+  showCase2[0].style.display = "flex";
+  showCase[0].style.display = "none";
+
+}
+
+
+function showcase(){
+  var showCase = document.getElementsByClassName("showcase")
+  var showCase2 = document.getElementsByClassName("showcase2");
+   var dots = document.getElementsByClassName("dot");
+
+  showCase2[0].style.display = "none";
+  showCase[0].style.display = "flex";
+
+
+}
